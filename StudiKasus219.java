@@ -9,7 +9,7 @@ public class StudiKasus219 {
 
         System.out.print("Masukkan nama mahasiswa: ");
         namaMahasiswa = input.nextLine();
-        System.out.print("Jenis kegiatan: (BELMAWA, BAKORMA, Mandiri, PKM, atau Lainnya)");
+        System.out.print("Jenis kegiatan: (BELMAWA, BAKORMA, Mandiri, PKM, atau Lainnya): ");
         jenisKegiatan = input.nextLine().toLowerCase();
 
         if (jenisKegiatan.equalsIgnoreCase("belmawa") || jenisKegiatan.equalsIgnoreCase("bakorma") || jenisKegiatan.equalsIgnoreCase("mandiri")) {
